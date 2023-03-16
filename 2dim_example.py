@@ -631,9 +631,6 @@ fff.create_dataset('pre_50', data=pre_50_save)
 fff.close()
 
 
-# +
-df_loss = pd.DataFrame(np.array(training_loss))
-df_loss.to_csv('data/Ex1_loss%d' %(10*sigma1),index=False)
 
 """
 #60
